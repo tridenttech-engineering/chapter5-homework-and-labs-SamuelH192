@@ -1,7 +1,7 @@
 //lab5-6.cpp - displays a service charge, which is 1%
 //of the purchase price; however, an additional $5 service
 //charge should be added to code 2 purchases
-//Created/revised by <your name> on <current date>
+//Created/revised by Samuel Hollenbeck on (9/27/24)
 
 #include <iostream> 
 #include <iomanip>
@@ -22,8 +22,8 @@ int main()
 	//calculate service charge
 	serviceChg = purchase * 0.01;
 	//add $5 to code 2 purchases
-	if (code = '2')
-		serviceChg = serviceChg + 5;
+	if (code == '2')
+		serviceChg += 5;
 	//end if
 
 	//display service charge
